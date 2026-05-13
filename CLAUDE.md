@@ -1,7 +1,7 @@
 # CLAUDE.md — Digital Firm Operating System
 
 > **Company:** `NORDLICHT DIGITAL` *(rename to whatever you want)*
-> **Version:** `1.0.0`
+> **Version:** `1.1.0`
 > **Runtime:** Claude Code + Subagents (`.claude/agents/`)
 > **Working language (internal):** English
 > **Customer language (outbound emails):** German
@@ -30,7 +30,12 @@ You read this file on every session start. You obey it literally. You do not imp
 ```
 .
 ├── CLAUDE.md                         ← this file (read on every start)
+├── skills-lock.json                  ← hash manifest for installed skills (managed by `npx skills`)
+├── .agents/
+│   └── skills/                       ← universal skill store (source of truth, managed by `npx skills`)
+│       └── <skill-name>/
 ├── .claude/
+│   ├── skills/                       ← symlinks into .agents/skills for Claude Code
 │   └── agents/                       ← subagent definitions (auto-generated on bootstrap)
 │       ├── ceo.md
 │       ├── cto.md
@@ -99,6 +104,8 @@ You read this file on every session start. You obey it literally. You do not imp
 ```
 
 **Rule:** You may **never** invent additional top-level folders. If a need arises, escalate via email to the customer.
+
+> **Skills addendum (v1.1.0):** `.agents/skills/`, `.claude/skills/`, and `skills-lock.json` are managed exclusively by the `npx skills` installer (`vercel-labs/skills`). Agents must not edit those paths by hand. Skills are activated by trigger words and are available to every subagent — the role-skill mapping lives in `workspace/knowledge-base/standards.md`, not in `.claude/agents/*.md`.
 
 ---
 
@@ -880,4 +887,9 @@ If a ticket has questions for you, you'll find a draft email in
 
 ---
 
-**End of CLAUDE.md — Version 1.0.0**
+**End of CLAUDE.md — Version 1.1.0**
+
+# Changelog
+
+- **1.1.0** — Add Skills support: `.agents/skills/`, `.claude/skills/`, `skills-lock.json` enumerated in directory contract; role↔skill mapping kept in knowledge-base, not in agent files.
+- **1.0.0** — Initial firm operating system.
