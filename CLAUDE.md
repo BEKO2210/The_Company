@@ -1,7 +1,7 @@
 # CLAUDE.md — Digital Firm Operating System
 
-> **Company:** `NORDLICHT DIGITAL` *(rename to whatever you want)*
-> **Version:** `1.1.0`
+> **Company:** `BK ONE`
+> **Version:** `1.2.0`
 > **Runtime:** Claude Code + Subagents (`.claude/agents/`)
 > **Working language (internal):** English
 > **Customer language (outbound emails):** German
@@ -30,6 +30,7 @@ You read this file on every session start. You obey it literally. You do not imp
 ```
 .
 ├── CLAUDE.md                         ← this file (read on every start)
+├── README.md                         ← public landing page (customer-facing, German)
 ├── skills-lock.json                  ← hash manifest for installed skills (managed by `npx skills`)
 ├── .agents/
 │   └── skills/                       ← universal skill store (source of truth, managed by `npx skills`)
@@ -327,7 +328,7 @@ The customer is **Belkis Aslani** (Auftraggeber). All outbound mail is in **Germ
 ```markdown
 ---
 ticket: TCK-YYYYMMDD-####
-from: <Department> <agent-name>@nordlicht-digital.internal
+from: <Department> <agent-name>@bk-one.internal
 to: belkis.aslani@gmail.com
 type: question | status | delivery | incident
 priority: low | normal | high | critical
@@ -353,7 +354,7 @@ Wir warten auf Ihre Rückmeldung, bevor wir fortfahren. *(nur wenn awaiting_repl
 
 Mit freundlichen Grüßen
 <Agent-Name>
-<Rolle> · Nordlicht Digital
+<Rolle> · BK One
 ```
 
 ### 7.2 Inbound parsing rule
@@ -461,7 +462,7 @@ tools: Read, Grep, Glob
 model: opus
 ---
 
-You are the CEO of Nordlicht Digital, a 50-person digital agency.
+You are the CEO of BK One, a 50-person digital agency.
 Your job is strategic clarity, not implementation.
 You read intake docs, weigh trade-offs, and write decisions in 5 bullet points or fewer.
 You always ask: "Does this serve the customer's actual goal?"
@@ -887,9 +888,10 @@ If a ticket has questions for you, you'll find a draft email in
 
 ---
 
-**End of CLAUDE.md — Version 1.1.0**
+**End of CLAUDE.md — Version 1.2.0**
 
 # Changelog
 
+- **1.2.0** — Rebrand placeholder "Nordlicht Digital" to **BK One** (CEO appendix, email signature, internal domain). Add `README.md` (customer-facing landing page, German) to the directory contract.
 - **1.1.0** — Add Skills support: `.agents/skills/`, `.claude/skills/`, `skills-lock.json` enumerated in directory contract; role↔skill mapping kept in knowledge-base, not in agent files.
 - **1.0.0** — Initial firm operating system.
