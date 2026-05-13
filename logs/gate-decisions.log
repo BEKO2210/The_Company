@@ -1,0 +1,12 @@
+2026-05-13T00:18:23Z  GATE A1 (QA)        TCK-20260513-0001  FAIL major  (coverage gaps: AC-2/3/4/5/7/10, body-cap, lint)
+2026-05-13T00:18:23Z  GATE A2 (Security)  TCK-20260513-0001  PASS
+2026-05-13T00:18:23Z  GATE A3 (Quality)   TCK-20260513-0001  PASS
+2026-05-13T00:18:23Z  GATE A COMPOSITE    TCK-20260513-0001  FAIL  (A1 blocking) -> sandbox reopened, no staging promotion
+2026-05-13T00:21:58Z  GATE A1 (QA)       TCK-20260513-0001  PASS  (iteration 2: 10/10 tests, lint clean, AC-7 restart, AC-10 cookies, body-cap, frontend static analysis)
+2026-05-13T00:21:58Z  GATE A COMPOSITE   TCK-20260513-0001  PASS  -> promoting sandbox -> staging
+2026-05-13T00:23:55Z  GATE B1 (Regression)  TCK-20260513-0001  PASS  (10/10 tests, diff -rq empty, smoke 5.39ms healthz / 2.55ms visit)
+2026-05-13T00:23:55Z  GATE B2 (Privacy)     TCK-20260513-0001  PASS  (data minimization, no consent needed, no cookies, no sub-processors)
+2026-05-13T00:23:55Z  GATE B3 (Compliance)  TCK-20260513-0001  PASS  (MIT, docs complete, audit trail intact, drift resolved)
+2026-05-13T00:23:55Z  GATE B4 (UX)          TCK-20260513-0001  PASS  (17/17 ACs met or delegated, WCAG 2.2 AA verified)
+2026-05-13T00:23:55Z  GATE B COMPOSITE      TCK-20260513-0001  PASS  -> release authorized (release-manager)
+2026-05-13T00:24:28Z  RELEASE  TCK-20260513-0001  v0.1.0  by release-manager  artifacts=8  immutable=yes

@@ -1,0 +1,2 @@
+2026-05-13T00:18:23Z  DRIFT-ALERT  TCK-20260513-0001  Gate A1 FAIL major; ticket reopened at STEP 6; required actions in 06-qa-report.md
+2026-05-13T00:24:48Z  NOTE     RELEASE TCK-20260513-0001 v0.1.0: chmod -R a-w applied; in this sandbox we run as root which bypasses file perms (Linux), but the bits dr-xr-xr-x are correct for a non-root deploy. Recommend chattr +i in production.
