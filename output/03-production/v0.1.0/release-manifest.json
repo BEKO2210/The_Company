@@ -1,0 +1,51 @@
+{
+  "version": "0.1.0",
+  "ticket": "TCK-20260513-0001",
+  "released_at": "2026-05-13T00:24:10Z",
+  "released_by": "release-manager",
+  "gates_passed": [
+    "A1",
+    "A2",
+    "A3",
+    "B1",
+    "B2",
+    "B3",
+    "B4"
+  ],
+  "artifacts": [
+    {
+      "path": "backend/.eslintrc.json",
+      "sha256": "be23e4402107670bf07ce83ce9dbe0f1428c8754b22be2e7a7a9b0007bd4d043"
+    },
+    {
+      "path": "backend/package.json",
+      "sha256": "4e1ed236bc7cb6672e73737f8bf4c3a861b95034575426fc3311424ac754e529"
+    },
+    {
+      "path": "backend/server.js",
+      "sha256": "4f82c764ebc34caa26771bd4b27e7472b3ce8cabd98d6fad4cd651c2a3f72299"
+    },
+    {
+      "path": "devops/Dockerfile",
+      "sha256": "d3aac5366032c62a7ed89b5313a28e1d18ddb35032dc8677ab201e5b0738dbfe"
+    },
+    {
+      "path": "devops/nginx.sample.conf",
+      "sha256": "25aee4db8c0935a75d00a77d246998ce1026c94d8efbc7085003d30d98745771"
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "d79fb12c216d6e668f5bb0317d22d3c24e3e02572f9d6c265f7e7567fcbc91f0"
+    },
+    {
+      "path": "frontend/hello-card.html",
+      "sha256": "d4e5004230c6df8eeb35ea10bf4e33f40601127e2143e9bd7baf29e4602c781d"
+    },
+    {
+      "path": "tests/server.test.js",
+      "sha256": "3545662be266fdeec997352dd12cf391275c13322da3270e41a515ea90108757"
+    }
+  ],
+  "parent_version": null,
+  "rollback_target": null
+}

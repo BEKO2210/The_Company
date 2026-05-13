@@ -1,0 +1,13 @@
+{
+  "name": "hello-card-server",
+  "version": "0.1.0",
+  "private": true,
+  "description": "BK One Hello-Card — stdlib-only Node server",
+  "main": "server.js",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/"
+  },
+  "dependencies": {}
+}
