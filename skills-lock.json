@@ -1,0 +1,311 @@
+{
+  "version": 1,
+  "skills": {
+    "agile-product-owner": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "product-team/agile-product-owner/skills/agile-product-owner/SKILL.md",
+      "computedHash": "58b3344f887746aee433d49f0dd3cd530d85bcd8392852ecc1ae55f885e0e4e8"
+    },
+    "api-design-reviewer": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "engineering/skills/api-design-reviewer/SKILL.md",
+      "computedHash": "4544ef6ca1616d382813bc39837ede6972b71dfedaaa534eb8e87b68d930681c"
+    },
+    "api-test-suite-builder": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "engineering/skills/api-test-suite-builder/SKILL.md",
+      "computedHash": "9358b2bc790e581573e72d5d7a2ecd6a7f1583d96d88eae83accbe57b8f812a9"
+    },
+    "board-meeting": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "c-level-advisor/skills/board-meeting/SKILL.md",
+      "computedHash": "79e7ea18c65247d20955c5200589ee40aade8a9b1505a4cf2902f0e7d400fdf9"
+    },
+    "brand-guidelines": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/brand-guidelines/SKILL.md",
+      "computedHash": "e48840db6ea772ceecdb68b4e50f8cc77e2534b7580aeaf4a6fe6ee7bd845d7d"
+    },
+    "ceo-advisor": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "c-level-advisor/skills/ceo-advisor/SKILL.md",
+      "computedHash": "15817040bd944f04ac06c06499940864e40e8501844d0dda2c85926e14475b03"
+    },
+    "changelog-generator": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "engineering/skills/changelog-generator/SKILL.md",
+      "computedHash": "bb8cc561d5d754b05c641b88d7e055f3b35e5186203badcddf842d3c617d1cd0"
+    },
+    "ci-cd-pipeline-builder": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "engineering/skills/ci-cd-pipeline-builder/SKILL.md",
+      "computedHash": "af05aab21f4226db4a22aad85bdcccb1eb98be04bd1c3851a1cab7c8c9fd3c61"
+    },
+    "ciso-advisor": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "c-level-advisor/skills/ciso-advisor/SKILL.md",
+      "computedHash": "4cdc5449e266c565171bb705b2e4c0c8dfaca94a52eb79ef2f30ccfd3e42803b"
+    },
+    "claude-api": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/claude-api/SKILL.md",
+      "computedHash": "fae9227ae5d58ed366bd225a35d8077100e8a0d056392b7d9165978d3ce4e860"
+    },
+    "codebase-onboarding": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "engineering/skills/codebase-onboarding/SKILL.md",
+      "computedHash": "e14535f7a5950f04a9be5e7fbc33518bd08e206d928d45406df65db8784aee10"
+    },
+    "confluence-expert": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "project-management/skills/confluence-expert/SKILL.md",
+      "computedHash": "955108661b0a99ca6e0a13f003d99244c0d43a5591ed1c53bbb6e68a4a59f219"
+    },
+    "cto-advisor": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "c-level-advisor/skills/cto-advisor/SKILL.md",
+      "computedHash": "ae1dd90d06635a7220f37e055086378f67e8e3b371ac1e1353b829c2d8d4e037"
+    },
+    "database-designer": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "engineering/skills/database-designer/SKILL.md",
+      "computedHash": "969abb51a43c750f2b368707023ac8b7b4dfe4025a24632cceebb8e27c2e58d7"
+    },
+    "database-schema-designer": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "engineering/skills/database-schema-designer/SKILL.md",
+      "computedHash": "24a1fa53fb456256b5ac9137b132eda4232a8c4ebf659af06f5bb8d8624bfc50"
+    },
+    "dependency-auditor": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "engineering/skills/dependency-auditor/SKILL.md",
+      "computedHash": "dc9eb108e0bd8ed4a6810591dedf63f924d15c09e453befa4e11240d139dc858"
+    },
+    "docx": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/docx/SKILL.md",
+      "computedHash": "6962db07127ee540a56e4677f65576d0727668a1d67f7da8bc978f10791c2bfe"
+    },
+    "env-secrets-manager": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "engineering/skills/env-secrets-manager/SKILL.md",
+      "computedHash": "11d3a635f284c21749e68e4c20541124f389c92f020d28c494322ce4d20ec534"
+    },
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "computedHash": "063a0e6448123cd359ad0044cc46b0e490cc7964d45ef4bb9fd842bd2ffbca67"
+    },
+    "gdpr-dsgvo-expert": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "ra-qm-team/skills/gdpr-dsgvo-expert/SKILL.md",
+      "computedHash": "d5a47ec6067b92f891810f47eca10c8f6b617c27de430167e3d993b5ac82d57b"
+    },
+    "incident-commander": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "engineering-team/skills/incident-commander/SKILL.md",
+      "computedHash": "e4d42e625931c0e67393542db221f177d31a1307cb94e7669c2adf9178eee64e"
+    },
+    "information-security-manager-iso27001": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "ra-qm-team/skills/information-security-manager-iso27001/SKILL.md",
+      "computedHash": "adc5fa5fce253536baad51b40e73a570b5ef299010196b91ab1930ef227ea093"
+    },
+    "internal-comms": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/internal-comms/SKILL.md",
+      "computedHash": "0bdc8867452b7ab9ef6167f6b0db2025ce5fb03773d3f85efcef2dfeb9d4976d"
+    },
+    "jira-expert": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "project-management/skills/jira-expert/SKILL.md",
+      "computedHash": "2287f788c845f4250b8ed964ebd56e59ca12e6fdf5c2e9537d0e1ea188f909fd"
+    },
+    "mcp-builder": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/mcp-builder/SKILL.md",
+      "computedHash": "826e46adf81e1372282e205c34e1a2ee876e72148007726e4a2512599d2fef7b"
+    },
+    "migration-architect": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "engineering/skills/migration-architect/SKILL.md",
+      "computedHash": "c3a521b451c82afa73f527751f18566548991ddf2c4cce32e58ddc71c3b1f5e0"
+    },
+    "monorepo-navigator": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "engineering/skills/monorepo-navigator/SKILL.md",
+      "computedHash": "f47541380fc60a7aa311c20aaab406bae53f64fbb2c52e55df99c72a1088d749"
+    },
+    "observability-designer": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "engineering/skills/observability-designer/SKILL.md",
+      "computedHash": "3cd5dd04d8030ed4bf0fb008f584e07108fb6af811e789ba195d7c4493579125"
+    },
+    "pdf": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pdf/SKILL.md",
+      "computedHash": "cfbc539377088ca7e44a813b30c306327385bbd973cd7a721e1743f60837dd62"
+    },
+    "performance-profiler": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "engineering/skills/performance-profiler/SKILL.md",
+      "computedHash": "5d8f2330129b8ba4e7f6054f8dfb5780b930ef0401801034e1e5810a35741b8e"
+    },
+    "pptx": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pptx/SKILL.md",
+      "computedHash": "6b8b859d26f93aa059c9870d1ab76b44ab69e3d6757ce4a03cc94cb760888073"
+    },
+    "pr-review-expert": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "engineering/skills/pr-review-expert/SKILL.md",
+      "computedHash": "1d6f5f481729ebf2492e2a22700da369a4872d2798cfc6ac0b156ac6a4c8b904"
+    },
+    "product-manager-toolkit": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "product-team/skills/product-manager-toolkit/SKILL.md",
+      "computedHash": "4b76d886158498d4696e307c5bb1e8e7542e395644d0b4eed2070ab0d301f725"
+    },
+    "product-strategist": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "product-team/skills/product-strategist/SKILL.md",
+      "computedHash": "9e372ea31555fc2d7075d2d51c74904ac8bb55719c92e9b3391c41436449a1b8"
+    },
+    "release-manager": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "engineering/skills/release-manager/SKILL.md",
+      "computedHash": "c7a402150639cf9fa780f7fc72f859d3ecc0f02218392f38ca7d12743b8a553e"
+    },
+    "runbook-generator": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "engineering/skills/runbook-generator/SKILL.md",
+      "computedHash": "d9899ffd714b59e89f318bfedf6c8566057981777a34a5ac0d8c3131aaddf0f5"
+    },
+    "scrum-master": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "project-management/skills/scrum-master/SKILL.md",
+      "computedHash": "e577d61b7c184a2a3e8f10bc1bac094b7b6af1e84e9b55b5d1d51e9b1fbe40ba"
+    },
+    "senior-architect": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "engineering-team/skills/senior-architect/SKILL.md",
+      "computedHash": "0152c1cb90512177153d936557a11bf760d5cbd21470a1305cc727d0a3af1df9"
+    },
+    "senior-backend": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "engineering-team/skills/senior-backend/SKILL.md",
+      "computedHash": "45f3294ffe96c436b689d3e950a605759440f6effc7b3747caa1ef394717b12a"
+    },
+    "senior-frontend": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "engineering-team/skills/senior-frontend/SKILL.md",
+      "computedHash": "876e6daaf3a8785f1628e90bc2b92675e869206fddfe352c1d95c634f146311b"
+    },
+    "senior-pm": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "project-management/skills/senior-pm/SKILL.md",
+      "computedHash": "8150d0dbeaaf54e18b5ad2d45a026fc38c71634b8b8605de3d4c4efb1c8c2056"
+    },
+    "senior-qa": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "engineering-team/skills/senior-qa/SKILL.md",
+      "computedHash": "39cb292f64ba6ecbc234ab99ce000d3b87c9b64ee57a772b3b6a38f900702749"
+    },
+    "senior-security": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "engineering-team/skills/senior-security/SKILL.md",
+      "computedHash": "815e7e7540d386358d51515e111a9897fc00bd2d5c907a6e91d1dad482010291"
+    },
+    "skill-creator": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/skill-creator/SKILL.md",
+      "computedHash": "5ea13a6d9f0d4bb694405d79acd00cadec0d21bb138c4dd10fcf3c500cb835c2"
+    },
+    "skill-security-auditor": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "engineering/skills/skill-security-auditor/SKILL.md",
+      "computedHash": "b8b3350efca889d6375a938c6171fbfb8e5eb63cf8868ad8d08a28c8d829741a"
+    },
+    "soc2-compliance": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "ra-qm-team/skills/soc2-compliance/SKILL.md",
+      "computedHash": "f5eefe69c0afb0ffbe0acb44bee8d690b08c02922ad533f48ef5b1d7f42cb345"
+    },
+    "tech-debt-tracker": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "engineering/skills/tech-debt-tracker/SKILL.md",
+      "computedHash": "a702ca374b3fc5ca27d8abccf505579c8aac2818d3794e98e73894882bdc0f03"
+    },
+    "ux-researcher-designer": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "product-team/skills/ux-researcher-designer/SKILL.md",
+      "computedHash": "2f0e31d8ff81d3454699684ad46224bb5a1739f57bc24db1dad1fa505251e6bf"
+    },
+    "web-artifacts-builder": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/web-artifacts-builder/SKILL.md",
+      "computedHash": "d52d422ead3fa26859a6af129609841a8536b230a2d649f86e61771d063e05e2"
+    },
+    "webapp-testing": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/webapp-testing/SKILL.md",
+      "computedHash": "ad5b1fc52807e9afa4635e59218a026b164dc58b6c3f41b0f7c644dcd6ccf572"
+    },
+    "xlsx": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/xlsx/SKILL.md",
+      "computedHash": "efd0c8011cf0677d8075cf93867ecec804f9a8754a777e1d2fdb46197e9c247f"
+    }
+  }
+}
